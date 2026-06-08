@@ -1,0 +1,22 @@
+# Virtual Environments
+.venv/
+
+# Environment Variables (Security risk if pushed!)
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ML Models and Weights
+# (Prevents pushing massive files that exceed Git limits)
+ml_models/*.pt
+ml_models/*.pth
+ml_models/*.h5
+ml_models/*.onnx
+*.weights
+
+# OS generated files
+.DS_Store
+Thumbs.db
